@@ -30,7 +30,11 @@ button {
 .d-flex {
     display: flex;
 }
+.block {
+    display: block;
+}
 /* #endregion Utilities*/
+
 /* #region View-options */
 #view-options {
     display: flex;
@@ -45,6 +49,7 @@ button {
     border-radius: 0.5rem;
 }
 /* #endregion View-options*/
+/* #region Display */
 .row {
     flex-wrap: wrap;
 }
@@ -68,3 +73,32 @@ button {
     bottom: 0.5rem;
     left: 0.3rem;
 }
+/* #endregion Display */
+/* #region Bottom-bar */
+#bottom-bar {
+    background-color: var(--zm-bottom-bar);
+    padding: 0.5rem;
+}
+
+#mute, #stop-video {
+    flex-direction: column;
+    text-align: center;
+    margin: 0 0.7rem;
+}
+#mute i, #stop-video i {
+    font-size: 1.5rem;
+    padding-bottom: 0.5rem;
+}
+.menu {
+    color: white;
+    align-items: center;
+}
+.menu span {
+    font-size: 0.7rem;
+    font-weight: 300;
+}
+.fa-sharp {
+    font-size: 0.6rem;
+    padding: 0.4rem;
+}
+/* #endregion Bottom-bar */
