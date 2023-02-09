@@ -1,0 +1,19 @@
+/* #region Common */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --zm-bottom-bar: #222222;
+    --zm-btn: #4a4a4a;
+    --zm-bg: #000;
+    --zm-end-meet: #ff0000;
+    --zm-share-screen: #4ac601;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+/* #endregion Common */
