@@ -15,5 +15,24 @@
 
 body {
     font-family: 'Lato', sans-serif;
+    background-color: var(--zm-bg);
 }
 /* #endregion Common */
+/* #region Utilities */
+button {
+    border: none;
+}
+/* #endregion Utilities*/
+/* #region View-options */
+#view-options {
+    display: flex;
+    justify-content: flex-end;
+}
+#view-options button {
+    padding: 0.3rem;
+    font-size: 0.8rem;
+    margin: 1rem 0.2rem;
+    background-color: var(--zm-btn);
+    color: #fff;
+}
+/* #endregion View-options*/
