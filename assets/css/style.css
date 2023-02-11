@@ -16,7 +16,6 @@
 body {
     font-family: 'Lato', sans-serif;
     background-color: var(--zm-bg);
-    height: 100vh;
 }
 /* #endregion Common */
 /* #region Utilities */
@@ -24,7 +23,7 @@ button {
     border: none;
 }
 .container {
-    width: 85%;
+    width: 90%;
     margin: auto;
 }
 .d-flex {
@@ -37,19 +36,31 @@ button {
 
 /* #region View-options */
 #view-options {
+    width: 100%;
+    height: 70px;
+    background-color: #000;
     display: flex;
     justify-content: flex-end;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10000;
 }
 #view-options button {
     padding: 0.4rem;
+    margin-right: 0.5rem;
     font-size: 0.8rem;
-    margin: 1rem 0.5rem 1rem 0;
     background-color: var(--zm-btn);
     color: #fff;
     border-radius: 0.5rem;
 }
 /* #endregion View-options*/
 /* #region Display */
+#display {
+    margin: 60px auto 100px auto;
+    overflow-y: auto;
+}
 .row {
     flex-wrap: wrap;
 }
