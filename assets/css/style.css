@@ -58,7 +58,7 @@ button {
 /* #endregion View-options*/
 /* #region Display */
 #display {
-    margin: 60px auto 100px auto;
+    margin: 80px auto 100px auto;
     overflow-y: auto;
 }
 .row {
